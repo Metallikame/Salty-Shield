@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Salty Shield</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+
+<body>
+
+<header id="header">
+
+    <div class="site-brand">
+        <a href="index.html"> <img id="site-logo" width="1500" height="1500" src="logo.png" alt="logo"></a>
+        <span>Salty Shield</span>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="index.html">Accueil</a>
+            </li>
+            <li>
+                <a href="decouvrez_l_equipe.html">Découvrez l'équipe</a>
+            </li>
+            <li>
+                <a href="contactez-nous.html">Contactez-nous</a>
+            </li>
+        </ul>
+    </nav>
+
+</header>
+
+<main>
+
+    <section id="home-form">
+
+        <div class="wrapper">
+
+
+            <form action="#">
+                <header>Envoyez nous un message</header>
+                <div class="dbl-field">
+
+                    <div class="field">
+                        <input type="text"
+                               name="name"
+                               placeholder="Entrez votre prénom"
+                               required>
+                        <i class='fas fa-user'></i>
+                    </div>
+
+                    <div class="field">
+                        <input type="text"
+                               name="name"
+                               placeholder="Entrez votre nom"
+                               required>
+                        <i class='fas fa-user'></i>
+                    </div>
+
+                </div>
+
+
+                <div class="dbl-field">
+
+                    <div class="field">
+                        <input type="email"
+                               name="email"
+                               placeholder="Entrez votre adresse email"
+                               required>
+                        <i class='fas fa-envelope'></i>
+                    </div>
+
+                    <div class="field">
+                        <input type="number"
+                               name="phone"
+                               min="0"
+                               max="9"
+                               maxlength="10"
+                               minlength="10"
+                               placeholder="Entrez votre numéro"
+                               required>
+                        <i class='fas fa-phone-alt'></i>
+                    </div>
+
+                </div>
+
+                <div class="message">
+                    <textarea placeholder="Écrivez votre message"
+                              name="message"
+                              required></textarea>
+                    <i class="material-icons">message</i>
+                </div>
+                <div class="dbl-field">
+                    <div class="button-area">
+                        <br>
+                        <button type="submit" class="btn btn-primary btn-block">Envoyer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+</main>
+
+<footer id="footer">
+
+    <div class="reseaux">
+        <p>Venez nous rejoindre sur nos différents réseaux</p>
+    </div>
+
+    <div class="icon-wrapper">
+
+        <div class="discord">
+            <a href="https://discord.gg/SwPVAhhqR2" target="_blank">
+                <img src="logo-discord.png"
+                     alt="logo-discord"
+                     title="discord"/>
+            </a>
+        </div>
+
+        <div class="twitter">
+            <a href="https://twitter.com/Salty_Shield" target="_blank">
+                <img src="logo-twitter.png"
+                     alt="logo-twitter"
+                     title="twitter"/>
+            </a>
+        </div>
+
+        <div class="twitch">
+            <a href="https://www.twitch.tv/saltyshieldtv" target="_blank">
+                <img src="logo-twitch.png"
+                     alt="logo-twitch"
+                     title="twitch"/>
+            </a>
+        </div>
+
+        <div class="insta">
+            <a href="https://www.instagram.com/saltyshield" target="_blank">
+                <img src="logo-insta.png"
+                     alt="logo-insta"
+                     title="insta"/>
+            </a>
+        </div>
+
+        <div class="tiktok">
+            <a href="https://www.tiktok.com/@saltyshieldtv" target="_blank">
+                <img src="logo-tiktok.png"
+                     alt="logo-tiktok"
+                     title="tiktok"/>
+            </a>
+        </div>
+
+    </div>
+
+    <p id="copyright-desc">copyrights 2021 - Salty Shield</p>
+
+</footer>
+</body>
+</html>
